@@ -1,0 +1,10 @@
+[Unit]
+Description=Hot Corner
+
+[Service]
+ExecStart=/%h/.local/bin/mouse.py
+Restart=on-failure
+
+[Install]
+WantedBy=graphical.target
+
