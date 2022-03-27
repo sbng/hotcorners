@@ -1,5 +1,7 @@
 # Hot corner implementation on linux without gnome desktop
-Hot corners are define as x-axis = 0 or y-axis = 0 base on the mouse pointer cordinates. Upon registering the requirement coordinate of 0 (x-axis or y-axis), a shell script will executed. 
+Hot corners are define as x-axis = 0 or y-axis = 0 base on the mouse pointer cordinates. Upon registering the requirement coordinate of 0 (x-axis or y-axis), a shell script will be executed. 
+
+[rofi](https://github.com/davatorium/rofi) is an excellent choice of script to be executed. It allow highly flexible customization of simple task and display with many themes available. Command such as 'rofi show window' will display all the open windows. 
 
 ## Requirments 
 - python3
