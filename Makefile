@@ -4,6 +4,8 @@
 #
 
 install:
+	@echo "[INFO] install python module pynput"
+	pip3 install pynput
 	@echo "[INFO] copy python script to ~/.local/bin/"
 	cp ./mouse.py ~/.local/bin/
 	@echo "[INFO] copy systemd startup file to user directory"
