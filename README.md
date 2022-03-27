@@ -1,5 +1,5 @@
-# Hot corner implementation on linux without gnome
-Hot corners are define as x-axis = 0 or y-axis - 0 base on the mouse pointer cordinates. Upon registering the requirement coordinate of 0 (x-axis or y-axis), a shell script will executed. 
+# Hot corner implementation on linux without gnome desktop
+Hot corners are define as x-axis = 0 or y-axis = 0 base on the mouse pointer cordinates. Upon registering the requirement coordinate of 0 (x-axis or y-axis), a shell script will executed. 
 
 ## Requirments 
 - python3
