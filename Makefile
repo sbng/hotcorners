@@ -3,7 +3,7 @@
 # sbng, 2022-03-27 22:25
 #
 
-all:
+install:
 	@echo "[INFO] copy python script to ~/.local/bin/"
 	cp ./mouse.py ~/.local/bin/
 	@echo "[INFO] copy systemd startup file to user directory"
